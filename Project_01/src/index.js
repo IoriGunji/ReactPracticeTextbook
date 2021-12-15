@@ -14,3 +14,8 @@ console.log(continers);
 
 const containers = document.querySelectorAll(".container");
 console.log(containers);
+
+const buttonEl = document.createElement("button");
+buttonEl.textContent = "ボタン";
+const div1El = document.querySelector(".container");
+div1El.appendChild(buttonEl);
